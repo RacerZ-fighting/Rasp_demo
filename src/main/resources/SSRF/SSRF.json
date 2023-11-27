@@ -1,0 +1,334 @@
+{
+  "start": {
+    "identity": 75944,
+    "labels": [
+      "Method"
+    ],
+    "properties": {
+      "IS_FROM_ABSTRACT_CLASS": false,
+      "IS_SOURCE": false,
+      "POLLUTED_POSITION": "[]",
+      "IS_ABSTRACT": false,
+      "SIGNATURE": "<sun.net.www.protocol.http.HttpURLConnection: java.io.InputStream getInputStream()>",
+      "IS_ACTION_CONTAINS_SWAP": false,
+      "IS_GETTER": true,
+      "IS_ENDPOINT": false,
+      "HAS_PARAMETERS": false,
+      "IS_IGNORE": false,
+      "MODIFIERS": 33,
+      "HAS_DEFAULT_CONSTRUCTOR": false,
+      "IS_PUBLIC": true,
+      "ID": "8a6892ad74f9be00ef676a1783512ebb",
+      "IS_NETTY_ENDPOINT": false,
+      "IS_SINK": false,
+      "PARAMETER_SIZE": 0,
+      "RETURN_TYPE": "java.io.InputStream",
+      "VUL": "",
+      "NAME0": "sun.net.www.protocol.http.HttpURLConnection.getInputStream",
+      "CLASSNAME": "sun.net.www.protocol.http.HttpURLConnection",
+      "NAME": "getInputStream",
+      "IS_CONTAINS_SOURCE": false,
+      "IS_STATIC": false,
+      "IS_CONTAINS_OUT_OF_MEM_OPTIONS": false,
+      "SUB_SIGNATURE": "java.io.InputStream getInputStream()",
+      "IS_SERIALIZABLE": false,
+      "IS_SETTER": false
+    }
+  },
+  "end": {
+    "identity": 44171,
+    "labels": [
+      "Method"
+    ],
+    "properties": {
+      "IS_FROM_ABSTRACT_CLASS": false,
+      "IS_SOURCE": false,
+      "POLLUTED_POSITION": "[]",
+      "IS_ABSTRACT": false,
+      "SIGNATURE": "<top.racerz.javasec.controller.SSRF: java.lang.String ipToUrl(java.lang.String)>",
+      "IS_ACTION_CONTAINS_SWAP": false,
+      "IS_GETTER": false,
+      "HAS_PARAMETERS": true,
+      "IS_ENDPOINT": true,
+      "IS_IGNORE": false,
+      "MODIFIERS": 1,
+      "HAS_DEFAULT_CONSTRUCTOR": true,
+      "IS_PUBLIC": true,
+      "ID": "acabaa4ddb304b03bf8ccd626dafbb59",
+      "IS_NETTY_ENDPOINT": false,
+      "IS_SINK": false,
+      "PARAMETER_SIZE": 1,
+      "RETURN_TYPE": "java.lang.String",
+      "VUL": "",
+      "CLASSNAME": "top.racerz.javasec.controller.SSRF",
+      "NAME0": "top.racerz.javasec.controller.SSRF.ipToUrl",
+      "NAME": "ipToUrl",
+      "IS_CONTAINS_SOURCE": false,
+      "IS_STATIC": false,
+      "IS_CONTAINS_OUT_OF_MEM_OPTIONS": false,
+      "SUB_SIGNATURE": "java.lang.String ipToUrl(java.lang.String)",
+      "IS_SERIALIZABLE": false,
+      "IS_SETTER": false
+    }
+  },
+  "segments": [
+    {
+      "start": {
+        "identity": 75944,
+        "labels": [
+          "Method"
+        ],
+        "properties": {
+          "IS_FROM_ABSTRACT_CLASS": false,
+          "IS_SOURCE": false,
+          "POLLUTED_POSITION": "[]",
+          "IS_ABSTRACT": false,
+          "SIGNATURE": "<sun.net.www.protocol.http.HttpURLConnection: java.io.InputStream getInputStream()>",
+          "IS_ACTION_CONTAINS_SWAP": false,
+          "IS_GETTER": true,
+          "IS_ENDPOINT": false,
+          "HAS_PARAMETERS": false,
+          "IS_IGNORE": false,
+          "MODIFIERS": 33,
+          "HAS_DEFAULT_CONSTRUCTOR": false,
+          "IS_PUBLIC": true,
+          "ID": "8a6892ad74f9be00ef676a1783512ebb",
+          "IS_NETTY_ENDPOINT": false,
+          "IS_SINK": false,
+          "PARAMETER_SIZE": 0,
+          "RETURN_TYPE": "java.io.InputStream",
+          "VUL": "",
+          "NAME0": "sun.net.www.protocol.http.HttpURLConnection.getInputStream",
+          "CLASSNAME": "sun.net.www.protocol.http.HttpURLConnection",
+          "NAME": "getInputStream",
+          "IS_CONTAINS_SOURCE": false,
+          "IS_STATIC": false,
+          "IS_CONTAINS_OUT_OF_MEM_OPTIONS": false,
+          "SUB_SIGNATURE": "java.io.InputStream getInputStream()",
+          "IS_SERIALIZABLE": false,
+          "IS_SETTER": false
+        }
+      },
+      "relationship": {
+        "identity": 1033236,
+        "start": 197791,
+        "end": 75944,
+        "type": "ALIAS",
+        "properties": {
+          "ID": "90cb5ae9-836f-492f-a8f3-0893a7e65014"
+        }
+      },
+      "end": {
+        "identity": 197791,
+        "labels": [
+          "Method"
+        ],
+        "properties": {
+          "IS_FROM_ABSTRACT_CLASS": true,
+          "IS_SOURCE": false,
+          "POLLUTED_POSITION": "[]",
+          "IS_ABSTRACT": false,
+          "SIGNATURE": "<java.net.URLConnection: java.io.InputStream getInputStream()>",
+          "IS_ACTION_CONTAINS_SWAP": false,
+          "IS_GETTER": true,
+          "HAS_PARAMETERS": false,
+          "IS_ENDPOINT": false,
+          "IS_IGNORE": false,
+          "MODIFIERS": 1,
+          "HAS_DEFAULT_CONSTRUCTOR": false,
+          "IS_PUBLIC": true,
+          "ID": "8e6b92979a25a8ff4cc397d8596495be",
+          "IS_NETTY_ENDPOINT": false,
+          "IS_SINK": false,
+          "PARAMETER_SIZE": 0,
+          "RETURN_TYPE": "java.io.InputStream",
+          "VUL": "",
+          "CLASSNAME": "java.net.URLConnection",
+          "NAME0": "java.net.URLConnection.getInputStream",
+          "NAME": "getInputStream",
+          "IS_CONTAINS_SOURCE": false,
+          "IS_STATIC": false,
+          "IS_CONTAINS_OUT_OF_MEM_OPTIONS": false,
+          "SUB_SIGNATURE": "java.io.InputStream getInputStream()",
+          "IS_SERIALIZABLE": false,
+          "IS_SETTER": false
+        }
+      }
+    },
+    {
+      "start": {
+        "identity": 197791,
+        "labels": [
+          "Method"
+        ],
+        "properties": {
+          "IS_FROM_ABSTRACT_CLASS": true,
+          "IS_SOURCE": false,
+          "POLLUTED_POSITION": "[]",
+          "IS_ABSTRACT": false,
+          "SIGNATURE": "<java.net.URLConnection: java.io.InputStream getInputStream()>",
+          "IS_ACTION_CONTAINS_SWAP": false,
+          "IS_GETTER": true,
+          "HAS_PARAMETERS": false,
+          "IS_ENDPOINT": false,
+          "IS_IGNORE": false,
+          "MODIFIERS": 1,
+          "HAS_DEFAULT_CONSTRUCTOR": false,
+          "IS_PUBLIC": true,
+          "ID": "8e6b92979a25a8ff4cc397d8596495be",
+          "IS_NETTY_ENDPOINT": false,
+          "IS_SINK": false,
+          "PARAMETER_SIZE": 0,
+          "RETURN_TYPE": "java.io.InputStream",
+          "VUL": "",
+          "CLASSNAME": "java.net.URLConnection",
+          "NAME0": "java.net.URLConnection.getInputStream",
+          "NAME": "getInputStream",
+          "IS_CONTAINS_SOURCE": false,
+          "IS_STATIC": false,
+          "IS_CONTAINS_OUT_OF_MEM_OPTIONS": false,
+          "SUB_SIGNATURE": "java.io.InputStream getInputStream()",
+          "IS_SERIALIZABLE": false,
+          "IS_SETTER": false
+        }
+      },
+      "relationship": {
+        "identity": 827536,
+        "start": 237872,
+        "end": 197791,
+        "type": "CALL",
+        "properties": {
+          "POLLUTED_POSITION": "[]",
+          "INVOKER_TYPE": "VirtualInvoke",
+          "LINE_NUM": "23",
+          "ID": "7893fb4f-4367-4c1a-b6a9-a39cf8ce4961",
+          "REAL_CALL_TYPE": "java.net.HttpURLConnection"
+        }
+      },
+      "end": {
+        "identity": 237872,
+        "labels": [
+          "Method"
+        ],
+        "properties": {
+          "IS_FROM_ABSTRACT_CLASS": false,
+          "POLLUTED_POSITION": "[]",
+          "IS_SOURCE": false,
+          "IS_ABSTRACT": false,
+          "SIGNATURE": "<top.racerz.javasec.util.HttpConnection: java.lang.String HTTPURLConnection(java.lang.String)>",
+          "IS_ACTION_CONTAINS_SWAP": false,
+          "IS_GETTER": false,
+          "HAS_PARAMETERS": true,
+          "IS_ENDPOINT": false,
+          "IS_IGNORE": false,
+          "MODIFIERS": 9,
+          "HAS_DEFAULT_CONSTRUCTOR": true,
+          "IS_PUBLIC": true,
+          "ID": "c88c9aa4d6f582a46e2833cebc9703c0",
+          "IS_NETTY_ENDPOINT": false,
+          "IS_SINK": false,
+          "PARAMETER_SIZE": 1,
+          "RETURN_TYPE": "java.lang.String",
+          "VUL": "",
+          "CLASSNAME": "top.racerz.javasec.util.HttpConnection",
+          "NAME0": "top.racerz.javasec.util.HttpConnection.HTTPURLConnection",
+          "NAME": "HTTPURLConnection",
+          "IS_CONTAINS_SOURCE": false,
+          "IS_STATIC": true,
+          "SUB_SIGNATURE": "java.lang.String HTTPURLConnection(java.lang.String)",
+          "IS_CONTAINS_OUT_OF_MEM_OPTIONS": false,
+          "IS_SERIALIZABLE": false,
+          "IS_SETTER": false
+        }
+      }
+    },
+    {
+      "start": {
+        "identity": 237872,
+        "labels": [
+          "Method"
+        ],
+        "properties": {
+          "IS_FROM_ABSTRACT_CLASS": false,
+          "POLLUTED_POSITION": "[]",
+          "IS_SOURCE": false,
+          "IS_ABSTRACT": false,
+          "SIGNATURE": "<top.racerz.javasec.util.HttpConnection: java.lang.String HTTPURLConnection(java.lang.String)>",
+          "IS_ACTION_CONTAINS_SWAP": false,
+          "IS_GETTER": false,
+          "HAS_PARAMETERS": true,
+          "IS_ENDPOINT": false,
+          "IS_IGNORE": false,
+          "MODIFIERS": 9,
+          "HAS_DEFAULT_CONSTRUCTOR": true,
+          "IS_PUBLIC": true,
+          "ID": "c88c9aa4d6f582a46e2833cebc9703c0",
+          "IS_NETTY_ENDPOINT": false,
+          "IS_SINK": false,
+          "PARAMETER_SIZE": 1,
+          "RETURN_TYPE": "java.lang.String",
+          "VUL": "",
+          "CLASSNAME": "top.racerz.javasec.util.HttpConnection",
+          "NAME0": "top.racerz.javasec.util.HttpConnection.HTTPURLConnection",
+          "NAME": "HTTPURLConnection",
+          "IS_CONTAINS_SOURCE": false,
+          "IS_STATIC": true,
+          "SUB_SIGNATURE": "java.lang.String HTTPURLConnection(java.lang.String)",
+          "IS_CONTAINS_OUT_OF_MEM_OPTIONS": false,
+          "IS_SERIALIZABLE": false,
+          "IS_SETTER": false
+        }
+      },
+      "relationship": {
+        "identity": 335349,
+        "start": 44171,
+        "end": 237872,
+        "type": "CALL",
+        "properties": {
+          "POLLUTED_POSITION": "[]",
+          "INVOKER_TYPE": "StaticInvoke",
+          "LINE_NUM": "44",
+          "ID": "57006d38-7f81-4f11-9c45-d7c4ef87dff4",
+          "REAL_CALL_TYPE": "top.racerz.javasec.util.HttpConnection"
+        }
+      },
+      "end": {
+        "identity": 44171,
+        "labels": [
+          "Method"
+        ],
+        "properties": {
+          "IS_FROM_ABSTRACT_CLASS": false,
+          "IS_SOURCE": false,
+          "POLLUTED_POSITION": "[]",
+          "IS_ABSTRACT": false,
+          "SIGNATURE": "<top.racerz.javasec.controller.SSRF: java.lang.String ipToUrl(java.lang.String)>",
+          "IS_ACTION_CONTAINS_SWAP": false,
+          "IS_GETTER": false,
+          "HAS_PARAMETERS": true,
+          "IS_ENDPOINT": true,
+          "IS_IGNORE": false,
+          "MODIFIERS": 1,
+          "HAS_DEFAULT_CONSTRUCTOR": true,
+          "IS_PUBLIC": true,
+          "ID": "acabaa4ddb304b03bf8ccd626dafbb59",
+          "IS_NETTY_ENDPOINT": false,
+          "IS_SINK": false,
+          "PARAMETER_SIZE": 1,
+          "RETURN_TYPE": "java.lang.String",
+          "VUL": "",
+          "CLASSNAME": "top.racerz.javasec.controller.SSRF",
+          "NAME0": "top.racerz.javasec.controller.SSRF.ipToUrl",
+          "NAME": "ipToUrl",
+          "IS_CONTAINS_SOURCE": false,
+          "IS_STATIC": false,
+          "IS_CONTAINS_OUT_OF_MEM_OPTIONS": false,
+          "SUB_SIGNATURE": "java.lang.String ipToUrl(java.lang.String)",
+          "IS_SERIALIZABLE": false,
+          "IS_SETTER": false
+        }
+      }
+    }
+  ],
+  "length": 3.0
+}

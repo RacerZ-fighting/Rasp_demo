@@ -1,0 +1,7 @@
+HOOK.RCE.OGNL.OgnlExpressionHook
+HOOK.RCE.OGNL.OgnlRuntimeHook
+HOOK.RCE.RceHook
+HOOK.RCE.SSRF.SSRFContextHook
+HOOK.RCE.SSRF.URLConnectionHook
+server.OgnlDispatcherHook
+server.ServerRequestHook
